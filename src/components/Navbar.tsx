@@ -14,12 +14,7 @@ export default function Navbar() {
   return (
     <div className="h-16 w-full flex justify-between items-center px-6">
       <div className="flex items-center justify-center">
-        <Image
-          src="/images/coding.png"
-          alt="home_icon"
-          width="40"
-          height="40"
-        />
+        <Image src="/images/logo.png" alt="home_icon" width="40" height="40" />
         <h1 className="text-3xl font-bold ml-2">DevUI</h1>
       </div>
 
